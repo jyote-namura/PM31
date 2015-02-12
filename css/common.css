@@ -1,0 +1,78 @@
+@charset"utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ---------------------------------------------
+        header
+ --------------------------------------------- */
+#header{
+	width: 320px;
+	height: 55px;
+	background-color: #ed6c44;
+	clear: both;
+}
+
+.logo{
+	width: 200px;
+	margin: 0 0 0 5px;
+	float: left;
+	overflow: hidden;
+}
+
+.login{
+	margin: 15px 0 0 20px;
+	width: 80px;
+	height: 20px;
+	background-color: red;
+	float: left;
+}
+
+ul{
+	width: 320px;
+	height: 40px;
+}
+
+
+ul li{
+	list-style:none;
+	width: 80px;
+	height: 40px;
+	float: left;
+	background-color: red;
+}
+
+
+/* ---------------------------------------------
+        wrap
+ --------------------------------------------- */
+#wrap{
+	margin: 0 5px 0 5px;
+	width: 310px;
+	overflow: hidden;
+	clear: both;
+}
+
+
+#mapView{
+	margin: 5px 0 0 0;
+  	width: 310px;
+  	height: 300px;
+}
+
+
+/* ---------------------------------------------
+        footer
+ --------------------------------------------- */
+
+
+footer{
+	margin: 5px 0 0 0;
+	padding: 10px 0 0 40px;
+	width: 280px;
+	height: 70px;
+	background-color: #ed6c44;
+}
