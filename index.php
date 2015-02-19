@@ -6,6 +6,7 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAhZHHmFPEKFhx8ze-Yss4pAiUADa5pGDM&sensor=false"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="js/index.js"></script>
 <link rel="stylesheet" type="text/css" href="css/common.css" />
 <title>このあとどうする？</title>
 <script>
@@ -41,6 +42,10 @@
     include 'head.php';
 ?>
 <div id="wrap">
+    <div class="shop_seach">
+        <div class="seach1">お店を検索<input type="text" style="width : 150px; height : 18px;"></div>
+        <div class="seach2"><img src="img/botan.jpg"></div>
+    </div>
     <div id ="mapView">
     </div><!--mapView-->
 </div><!--wrap-->
