@@ -1,0 +1,33 @@
+@charset"utf-8";
+
+
+.login_title{
+	border-top: 1px solid #c55a39;
+	margin: 0 0 5px 0;
+	width: 320px;
+	height: 30px;
+	background-color: #ed6c44;
+}
+
+.login_title img{
+	margin: 8px 0 0 0;
+	width: 20%;
+}
+
+.txtbox1{
+	font-size: 15px;
+	margin: 30px 0 5px 38px;
+}
+
+.txtbox2{
+	font-size: 15px;
+	margin: 10px 0 5px 10px;
+}
+
+.txtbox3{
+	margin: 20px 0 163px 78px;
+	padding: 5px 0 0 30px;
+	width: 130px;
+	height: 25px;
+	background-color: #ed6c44;
+}
